@@ -1,0 +1,29 @@
+.filtro{
+    display: none;
+}
+#cards{
+    background-color: #eeeeee;
+    margin: 1vh;
+    border-radius: 12px;
+    border: solid 1px rgb(173, 173, 173);
+    height: auto;
+}
+#clase1{
+    display: none;
+}
+#cards:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#cards h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 3vh;
+}
+#nameyid{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

@@ -1,0 +1,82 @@
+.contenedor{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+}
+#flexcontenedor{
+    display: flex;
+}
+#flexcontenedor2{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    height: 7vh;
+    margin: 4vh;
+}
+#aside{
+    background-color:#eeeeee;
+    display: flex;
+    height: auto;
+    min-height: 100vh;
+    padding: 4vh;
+    box-sizing: border-box;
+}
+input{
+border-radius: 4px;
+height: 3vh;
+width: 12vw;
+font-size: 2vh;
+font-family: 'VT323', monospace;
+}
+#botonloco{
+    border: none;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+}
+#botonloco:hover{
+    animation: mymove 2s infinite;
+    cursor: pointer;
+}
+#continput{
+    padding: 2vh;
+}
+#contboton{
+    padding: 2vh;
+}
+#pokeball{
+    width: 50px;
+}
+#contlabel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+label{
+    font-size: 4vh;
+    font-family:'VT323', monospace;
+    border: solid 1px black;
+    border-radius: 12px;
+    background-color: none;
+    height: 5vh;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: yellow;
+}
+#contenedorloco{
+    border: solid 1px rgb(215, 215, 215);
+    border-radius: 12px;
+    padding: 4vh;
+}
+@keyframes mymove {
+    25% {transform: rotate(-25deg)}
+    75% {transform: rotate(25deg);}
+}

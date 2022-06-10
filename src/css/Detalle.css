@@ -1,0 +1,284 @@
+#detallecontenedor{
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'VT323', monospace;
+}
+#pokemonimg{
+    width: 30vh;
+}
+#botond{
+    background-color: #fafafa;
+    padding: 12px;
+    border: none;
+}
+#nombre{
+    font-size: 4vh;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50%;
+    height: 1000px;
+    overflow: scroll;
+    border: solid 1px black;
+    margin: 2vh;
+    opacity: 50%;
+}
+#grid-container:hover{
+    opacity: 100%;
+    transition: ease-in-out 0.1s;
+}
+#pokemontypes{
+    border: solid 1px black;
+    border-radius: 12px;
+    color: #fafafa;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-size: 3vh;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+    margin: 4px;
+}
+.grass{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color:lime;
+}
+.fire{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: red;
+   
+}
+.water{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: aqua;
+    
+}
+.bug{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: olive;
+}
+.normal{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: grey;
+}
+.electric{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: yellow;
+}
+.ground{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: brown;
+}
+.poison{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: violet;
+}
+.fighting{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: orange;
+}
+.psychic{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: pink;
+}
+.rock{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: rgb(168, 191, 172);
+}
+.ghost{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+color: purple;
+}
+.ice{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: blue;
+}
+.dragon{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: silver;
+}
+.flying{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: rgb(160, 200, 255);
+}
+.steel{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: rgb(129, 129, 129);
+}
+.dark{
+    border: solid 1px black;
+    border-radius: 4px;
+    color: black;
+    padding: 12px;
+    background-color: rgb(77, 14, 91);
+}
+#habilidad{
+    width: 50%;
+}
+#cards2{
+    padding: 12px;
+}
+#xdddddd{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulos{
+    font-size: 3vh;
+    border-bottom: solid 1px black;
+}
+#contenedortypes{
+    border: solid 1px black;
+    font-size: 2vh;
+    display: flex;
+    background-color: #fafafa;
+    align-items: center;
+    justify-content: center;
+}
+#contenedortypes h2{
+    padding: 12px;
+    margin: 0px;
+    padding-left: 1vh;
+}
+#tipohabilidad{
+    border-radius: 12px;
+    color: #fafafa;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-size: 3vh;
+    text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+    margin: 4px;
+}
+#caracteristicas{
+    display: flex;
+}
+#numero{
+    font-size: 3vh;
+    padding: 2vh;
+}
+#peso{
+    font-size: 3vh;
+    padding: 1vh;
+}
+#altura{
+    font-size: 3vh;
+    padding: 1vh;
+}
+#stats{
+    display: flex;
+}
+#stats p{
+    padding: 1vh;
+    font-size: 3vh;
+    margin: 0px;
+}
+#stats p:nth-child(2){
+    color: rgb(208, 137, 3);
+}
+#statscontenedor{
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+border: solid 1px black;
+justify-content: center;
+align-items: center;
+}
+#bottomcontenedor{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contenedorboton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    margin: 2vh;
+    margin-bottom: 12vh;
+}
+#flechita{
+    width: 4vh;
+    transform: scaleX(-1);
+}
+@media (max-width: 600px) {
+    #grid-container{
+        height: 200px;
+        width: 100%;
+        grid-template-columns: auto;
+    }
+    #statscontenedor{
+        flex-direction: column;
+        align-items: flex-start;
+        width: auto;
+    }
+}
