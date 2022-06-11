@@ -30,7 +30,7 @@ width: 12vw;
 font-size: 2vh;
 font-family: 'VT323', monospace;
 }
-#botonloco{
+#botonpokeball{
     border: none;
     height: 3vh;
     display: flex;
@@ -38,7 +38,7 @@ font-family: 'VT323', monospace;
     justify-content: center;
     background-color: none;
 }
-#botonloco:hover{
+#botonpokeball:hover{
     animation: mymove 2s infinite;
     cursor: pointer;
 }
@@ -71,7 +71,7 @@ label{
     color: black;
     background-color: yellow;
 }
-#contenedorloco{
+#contenedorg{
     border: solid 1px rgb(215, 215, 215);
     border-radius: 12px;
     padding: 4vh;

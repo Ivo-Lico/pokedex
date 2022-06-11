@@ -14,9 +14,9 @@ export default function Detalle(props) {
 let types = []
 let incremento = 0
 
-const [xdlawea, setxdlawea] = useState()
+const [habilidades, setHabilidades] = useState()
 
-const funcionfetchloca = async()=>{
+const traerSkills = async()=>{
   pokemond.moves.map(habilidades =>
     habilidades.move.url
     ).forEach(element => {
@@ -25,7 +25,7 @@ const funcionfetchloca = async()=>{
         .then(json=>{
        types.push(json)
        console.log(json.type)
-       setxdlawea(types.map(weas=>
+       setHabilidades(types.map(weas=>
         <div key={incremento++} id='contenedortypes'>
           <h2>
         {weas.name}
@@ -41,7 +41,7 @@ const funcionfetchloca = async()=>{
 }
 
 useEffect(()=>{
-  funcionfetchloca()
+  traerSkills()
 },[])
 
 
@@ -217,9 +217,9 @@ if(type === "dark"){
         {listarstats()}
         </div>
         <p className='titulos'>Habilidades que puede aprender:</p>
-          <div id='xdddddd'>
+          <div id='skillscontainer'>
             <div id='grid-container'>
-{xdlawea}
+{habilidades}
 </div>
 <div id='contenedorboton'>
         <button id='botond' onClick={mostrardetalle}><img id='flechita' src={Flechita} alt="" /></button>

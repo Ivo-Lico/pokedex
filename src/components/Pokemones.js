@@ -52,7 +52,7 @@ const listarpokemones = ()=>{
   return (
       <div id="flexcontenedor">
           {aside ? <div id="aside" >
-              <div id="contenedorloco">
+              <div id="contenedorg">
                   <div id="contlabel">
               <label htmlFor="input">Pokedex</label>
               </div>
@@ -61,7 +61,7 @@ const listarpokemones = ()=>{
 <input value={busqueda} onChange={handleChange} id="input" type="text" />
 </div>
 <div id="contboton">
-<button id="botonloco" onClick={()=>handleChange()}><img id="pokeball" src={Pokeball} alt="" /> </button></div>
+<button id="botonpokeball" onClick={()=>handleChange()}><img id="pokeball" src={Pokeball} alt="" /> </button></div>
 </div>
 </div>
 </div> : null}
